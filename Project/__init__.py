@@ -29,19 +29,6 @@ from pythainlp.corpus import thai_stopwords
 # ถ้ามีเวลาเหลือ ทำที่แอดคำใหม่เข้าไปด้วย จากฝั่ง admins
 # แล้วถ้าเจอคำใหม่ๆที่ไม่อยู่ใน dataset เลย แต่ความหมายมันลื่อในปัญหานั้น จะทำยังไงให้มันรู้
 
-Config = {
-  "apiKey": "AIzaSyB_nsTTILZ5WQ7eOVGDbDdaZnYDLJl6Ymg",
-  "authDomain": "x--gcyd.firebaseapp.com",
-  "databaseURL": "https://x--gcyd-default-rtdb.asia-southeast1.firebasedatabase.app",
-  "projectId": "x--gcyd",
-  "storageBucket": "x--gcyd.appspot.com",
-  "serviceAccount": "chatbot-firebase.json"
-}
-
-# เกี่ยวกับ firebase
-""" firebase_storage = pyrebase.initialize_app(Config)
-storage = firebase_storage.storage()
-firebase_database = firebase.FirebaseApplication("https://x--gcyd-default-rtdb.asia-southeast1.firebasedatabase.app/") """
 
 #ที่อยู่รูปที่บันทึก
 dir_path = 'C:/Users/thanasaksomroob/Desktop/python/pic'
